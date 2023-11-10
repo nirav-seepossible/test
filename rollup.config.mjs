@@ -6,7 +6,7 @@ import dts from "rollup-plugin-dts";
 
 export default [
   {
-    input: "wasm_fetch_data",
+    input: "src/index.ts",
     output: [
       {
         file: 'dist/cjs/index.js',

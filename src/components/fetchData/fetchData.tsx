@@ -1,5 +1,5 @@
 import React, { FC, useCallback, useEffect, useState, useRef } from 'react';
-import init, { add, run } from "wasm_fetch_data";
+import init, { add, run } from "@nirav-seepossible/wasm_fetch_data";
 
 
 const FetchData: FC = () => {

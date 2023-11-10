@@ -24,9 +24,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "wasm_fetch_data": "file:pkg"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/nirav-seepossible"
   }

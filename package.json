@@ -16,7 +16,8 @@
     "rollup": "^4.3.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-postcss": "^4.0.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "wasm_fetch_data": "file:pkg"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -24,9 +25,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "wasm_fetch_data": "file:pkg"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/nirav-seepossible"
   }

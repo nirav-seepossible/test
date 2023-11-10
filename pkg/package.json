@@ -1,0 +1,14 @@
+{
+  "name": "wasm_fetch_data",
+  "version": "0.1.0",
+  "files": [
+    "wasm_fetch_data_bg.wasm",
+    "wasm_fetch_data.js",
+    "wasm_fetch_data.d.ts"
+  ],
+  "module": "wasm_fetch_data.js",
+  "types": "wasm_fetch_data.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

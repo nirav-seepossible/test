@@ -1,6 +1,5 @@
 import React, { FC, useCallback, useEffect, useState, useRef } from 'react';
 import init, { add, run } from "wasm_fetch_data";
-import classes from './fetchData.module.css';
 
 
 const FetchData: FC = () => {
@@ -23,8 +22,8 @@ const FetchData: FC = () => {
     }, []);
 
     return (
-        <div className={classes.root}>
-            <button onClick={() => a()} className={classes.button}>Hello Google</button>
+        <div>
+            <button onClick={() => a()}>Hello Google</button>
             <p>1 + 1 = {ans}</p>
         </div>
     );
